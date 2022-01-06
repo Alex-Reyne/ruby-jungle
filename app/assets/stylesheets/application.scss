@@ -1,17 +1,18 @@
 // Vendor
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'font-awesome';
+@import 'dashboard';
 
 // App
-@import "products";
+@import 'products';
 
 // Global
 body {
-  padding-top: 70px;
+	padding-top: 70px;
 }
 
 // Bootstrap adjustments
 form.button_to {
-  display: inline;
+	display: inline;
 }
