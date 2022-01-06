@@ -1,0 +1,14 @@
+.welcome-title {
+	display: flex;
+	justify-content: center;
+}
+
+.about-content {
+	display: flex;
+	justify-content: center;
+
+	.main-content {
+		width: 50%;
+		text-align: center;
+	}
+}
