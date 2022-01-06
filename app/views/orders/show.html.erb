@@ -5,15 +5,15 @@
   </header>
 
   <% @order.line_items.each do |item| %>
-  <div class="product">
-    <%= render 'order_list', item: item, order: @order %>
+  <div>
+    <%= render 'order_list', item: item %>
   </div>
   <% end %>
 
   <h2> Order total: <%= humanized_money_with_symbol @order.total_cents / 100 %> </h2>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h4>Thank you for your order <%= @order.email %>!</h4>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
