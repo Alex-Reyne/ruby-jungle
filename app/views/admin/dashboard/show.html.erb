@@ -1,15 +1,13 @@
 <h1 class='jumbotron'>Admin Dashboard</h1>
 
 <div class='box'>
-<div class='box jumbotron col-md-6'>
+<div class='box-column jumbotron col-md-6'>
 <h2> Total Products: <%= @product.count %></h2>
+<a href="/admin/products"><button type="button" class="btn btn-info" >Products</button></a>
 </div>
 
-<div class='box jumbotron col-md-6'>
+<div class='box-column jumbotron col-md-6'>
 <h2> Total Categories: <%= @category.count %> </h2>
+<a href="/admin/categories"><button type="button" class="btn btn-info" >Categories</button></a>
 </div>
-</div>
-
-<div class="center">
-<a href="/admin/products"><button type="button" class="btn btn-info" >Product view</button></a>
 </div>
