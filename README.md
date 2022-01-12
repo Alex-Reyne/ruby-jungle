@@ -4,11 +4,11 @@ A mini e-commerce application built with Rails 4.2, tested with rspec, capybara.
 
 This was a project done during my time at the Lighthouse Labs bootcamp for the purpose of learning Ruby/Rails
 
-## I was responsible for:
-
 ---
 
-### learning the code-base of this partially completed application
+## I was responsible for learning the code-base of this partially completed application so that I could make the following changes:
+
+---
 
 ### adding new pages:
 
@@ -34,10 +34,14 @@ This was a project done during my time at the Lighthouse Labs bootcamp for the p
 - testing homepage and links
 - testing 'add to cart' functionality
 
+---
+
 ## v SCREENSHOTS v
 
 !['Some of the pages I worked on during this project'](public/screenshots/jungle-page-01.png)
 !['Some of the pages I worked on during this project'](public/screenshots/jungle-page-02.png)
+
+---
 
 ## Additional Steps for Apple M1 Machines
 
